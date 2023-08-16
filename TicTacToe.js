@@ -81,3 +81,6 @@ while(turn < 9)
     }
     turn++;
 }
+if(turn == 9){
+    console.log("Looks like no one has won :(\n It's a tie!");
+}
